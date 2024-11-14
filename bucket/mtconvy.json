@@ -5,10 +5,12 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/mitoteam/mtconvy/releases/download/v1.1.1/mtconvy-1.1.1-win64.7z"
+            "url": "https://github.com/mitoteam/mtconvy/releases/download/v1.1.1/mtconvy-1.1.1-win64.7z",
+            "hash": "8949720a2790a22f3a399dea2cdd1dd5f23e8575c7f5a6164f3eee4746d0c54d"
         },
         "32bit": {
-            "url": "https://github.com/mitoteam/mtsaver/releases/download/v1.1.1/mtsaver-1.1.1-win32.7z"
+            "url": "https://github.com/mitoteam/mtsaver/releases/download/v1.1.1/mtsaver-1.1.1-win32.7z",
+            "hash": "5c60c24ea54611f8e56be5d9d14fa75c23c63fe94abb12c58dec26ffb54d8e5c"
         }
     },
     "depends": "ffmpeg",
