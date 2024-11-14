@@ -15,7 +15,7 @@
     },
     "depends": "ffmpeg",
     "bin": "mtconvy.exe",
-    "post_install": "IF NOT EXIST \".mtconvy.yml\" COPY \".mtconvy.EXAMPLE.yml\" \".mtconvy.yml\"",
+    "post_install": "cmd /c \"IF NOT EXIST .mtconvy.yml COPY .mtconvy.EXAMPLE.yml .mtconvy.yml\"",
     "persist": [
         [".mtconvy.yml"]
     ],
