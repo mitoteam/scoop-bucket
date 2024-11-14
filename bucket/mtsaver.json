@@ -5,10 +5,10 @@
     "license": "MIT",
     "architecture": {
         "32bit": {
-            "url": "https://github.com/mitoteam/mtsaver/releases/download/v$version/mtsaver-$version-win32.7z"
+            "url": "https://github.com/mitoteam/mtsaver/releases/download/v1.3.2/mtsaver-1.3.2-win32.7z"
         },
         "64bit": {
-            "url": "https://github.com/mitoteam/mtsaver/releases/download/v$version/mtsaver-$version-win64.7z"
+            "url": "https://github.com/mitoteam/mtsaver/releases/download/v1.3.2/mtsaver-1.3.2-win64.7z"
         }
     },
     "depends": "7zip",
