@@ -10,11 +10,11 @@ This is a bucket to install MiTo Team's software using Scoop
 
 * Add this bucket:
 ```
-scoop bucket add mitoteam https://github.com/mitoteam/scoop-bucket.git
+scoop bucket add mitoteam https://github.com/mitoteam/scoop-bucket
 ```
 
 * Install apps from this bucket:
 ```
-scoop install mtsaver
-scoop install mtconvy
+scoop install mitoteam/mtsaver
+scoop install mitoteam/mtconvy
 ```
