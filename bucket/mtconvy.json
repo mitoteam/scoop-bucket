@@ -14,5 +14,9 @@
         }
     },
     "depends": "ffmpeg",
-    "bin": "mtconvy.exe"
+    "bin": "mtconvy.exe",
+    "persist": [
+        [".mtconvy.EXAMPLE.yml", ".mtconvy.yml"]
+    ],
+    "notes": "Edit .mtconvy.yml in persist directory to change default conversion settings."
 }
