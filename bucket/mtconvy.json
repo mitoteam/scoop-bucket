@@ -1,0 +1,26 @@
+{
+    "version": "$version",
+    "description": "ffmpeg command-line helper utility test: $version",
+    "homepage": "https://github.com/mitoteam/mtconvy",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/mitoteam/mtconvy/releases/download/v$version/mtconvy-$version-win64.7z"
+        },
+        "32bit": {
+            "url": "https://github.com/mitoteam/mtsaver/releases/download/v$version/mtsaver-$version-win32.7z"
+        }
+    },
+    "bin": "mtconvy.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/mitoteam/mtsaver/releases/download/v$version/mtsaver-$version-win64.7z"
+            },
+            "32bit": {
+                "url": "https://github.com/mitoteam/mtsaver/releases/download/v$version/mtsaver-$version-win32.7z"
+            }
+        }
+    }
+}
