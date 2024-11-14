@@ -18,3 +18,23 @@ scoop bucket add mitoteam https://github.com/mitoteam/scoop-bucket
 scoop install mitoteam/mtsaver
 scoop install mitoteam/mtconvy
 ```
+
+* Update apps
+
+See available updates
+
+```
+scoop update && scoop status
+```
+
+Update single app
+
+```
+scoop update mtsaver
+```
+
+or all apps in all buckets
+
+```
+scoop update *
+```
