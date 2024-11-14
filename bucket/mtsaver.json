@@ -1,5 +1,5 @@
 {
-    "version": "1.3.2",
+    "version": "$version",
     "description": "Easy 7-Zip differential backup archives management",
     "homepage": "https://github.com/mitoteam/mtsaver",
     "license": "MIT",
@@ -11,5 +11,16 @@
             "url": "https://github.com/mitoteam/mtsaver/releases/download/v$version/mtsaver-$version-win32.7z"
         }
     },
-    "bin": "mtsaver.exe"
+    "bin": "mtsaver.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/mitoteam/mtsaver/releases/download/v$version/mtsaver-$version-win64.7z"
+            },
+            "32bit": {
+                "url": "https://github.com/mitoteam/mtsaver/releases/download/v$version/mtsaver-$version-win32.7z"
+            }
+        }
+    }
 }
