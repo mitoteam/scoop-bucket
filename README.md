@@ -2,11 +2,11 @@
 
 This is a bucket to install MiTo Team's software using Scoop
 
-[Scoop](https://scoop.sh) is very useful command-line installer for Windows.
+[Scoop](https://scoop.sh) is useful command-line installer for Windows.
 
 ## How To
 
-* Install scoop: https://github.com/ScoopInstaller/Scoop/wiki/Quick-Start
+* Install `scoop`: https://github.com/ScoopInstaller/Scoop/wiki/Quick-Start
 
 * Add this bucket:
 ```
