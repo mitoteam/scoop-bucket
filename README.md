@@ -6,7 +6,7 @@ This is a bucket to install MiTo Team's software using Scoop
 
 ## How To
 
-* Install `scoop`: https://github.com/ScoopInstaller/Scoop/wiki/Quick-Start
+* Install `scoop`: https://scoop.sh
 
 * Add this bucket:
 ```
@@ -33,7 +33,7 @@ Update single app
 scoop update mtsaver
 ```
 
-or all apps in all buckets
+Update all apps
 
 ```
 scoop update *
