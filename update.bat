@@ -1,5 +1,7 @@
 @echo off
 
+git pull
+
 powershell .\bin\checkver.ps1 -u *
 @pause
 
