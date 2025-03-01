@@ -9,6 +9,9 @@
 	"url": "https://www.tws.by/sites/default/files/downloads/TwsXmlSigner.7z",
 	"hash": "f3939153c7be71d521a54a317d64d1303a1e555e12f0f13c1052dc7041539ae8",
     "bin": "TwsXmlSigner.exe",
+	"persist": [
+        "TwsXmlSigner.xml"
+    ],
 	"shortcuts": [
         [
             "TwsXmlSigner.exe",
