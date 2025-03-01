@@ -1,13 +1,21 @@
 {
     "version": "2025.208",
-    "description": "Программа для добавления цифровой подписи в XML-файлы для Системы TWS",
+    "description": "TwsXmlSigner - программа для добавления цифровой подписи в XML-файлы для Системы TWS",
     "homepage": "https://www.tws.by",
     "license": {
         "identifier": "Freeware",
         "url": "https://www.tws.by/tws/agreement"
     },
-    "url": "https://www.tws.by/sites/default/files/downloads/TwsXmlSigner.7z",
-	"hash": "305fdeef30f15a7af512c6ff862f256ddd7badf45b0f6313bff11e305de68d1d",
+    "architecture": {
+        "32bit": {
+            "url": "https://www.tws.by/sites/default/files/downloads/TwsXmlSigner.7z",
+            "hash": "305fdeef30f15a7af512c6ff862f256ddd7badf45b0f6313bff11e305de68d1d"
+        },
+        "64bit": {
+            "url": "https://www.tws.by/sites/default/files/downloads/TwsXmlSigner.7z",
+            "hash": "305fdeef30f15a7af512c6ff862f256ddd7badf45b0f6313bff11e305de68d1d"
+        }
+    },
     "bin": "TwsXmlSigner.exe",
     "persist": "Settings.xml",
     "shortcuts": [
@@ -23,6 +31,14 @@
     "autoupdate": {
         "hash": {
             "mode": "download"
+        },
+        "architecture": {
+            "32bit": {
+                "url": "https://www.tws.by/sites/default/files/downloads/TwsXmlSigner.7z"
+            },
+            "64bit": {
+                "url": "https://www.tws.by/sites/default/files/downloads/TwsXmlSigner.7z"
+            }
         }
     }
 }
