@@ -10,7 +10,7 @@
 	"hash": "305fdeef30f15a7af512c6ff862f256ddd7badf45b0f6313bff11e305de68d1d",
     "bin": "TwsXmlSigner.exe",
 	"persist": [
-        "TwsXmlSigner.xml"
+        "Settings.xml"
     ],
 	"shortcuts": [
         [
