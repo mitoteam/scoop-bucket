@@ -1,5 +1,5 @@
 {
-    "version": "2026.254",
+    "version": "2026.255",
     "description": "TwsXmlSigner - программа для добавления цифровой подписи в XML-файлы для Системы TWS",
     "homepage": "https://www.tws.by",
     "license": {
@@ -9,11 +9,11 @@
     "architecture": {
         "32bit": {
             "url": "https://www.tws.by/sites/default/files/downloads/TwsXmlSigner.7z",
-            "hash": "e6c2ecda1fa93adf57a2f6bac9bf55d7e26c6b9d12810cd0bbe1d8638dd3f892"
+            "hash": "e9e92da72f7616c62059a31ab44591f2114f5bd7b7b5f876a095f587c5f16306"
         },
         "64bit": {
             "url": "https://www.tws.by/sites/default/files/downloads/TwsXmlSigner.7z",
-            "hash": "e6c2ecda1fa93adf57a2f6bac9bf55d7e26c6b9d12810cd0bbe1d8638dd3f892"
+            "hash": "e9e92da72f7616c62059a31ab44591f2114f5bd7b7b5f876a095f587c5f16306"
         }
     },
     "bin": "TwsXmlSigner.exe",
