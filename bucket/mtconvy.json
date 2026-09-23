@@ -1,16 +1,16 @@
 {
-    "version": "2.0.1",
+    "version": "2.1.0",
     "description": "ffmpeg command-line helper utility",
     "homepage": "https://github.com/mitoteam/mtconvy",
     "license": "MIT",
     "architecture": {
         "32bit": {
-            "url": "https://github.com/mitoteam/mtconvy/releases/download/v2.0.1/mtconvy-2.0.1-win32.7z",
-            "hash": "2bec9d3c316c569f1f14824f84bc8538daf0d67476bed9a6f701d5c156f909a1"
+            "url": "https://github.com/mitoteam/mtconvy/releases/download/v2.1.0/mtconvy-2.1.0-win32.7z",
+            "hash": "66d9249a2e3487e3c7fdd06b7581881975b07adc26cc2ff05ecf37b4f272792e"
         },
         "64bit": {
-            "url": "https://github.com/mitoteam/mtconvy/releases/download/v2.0.1/mtconvy-2.0.1-win64.7z",
-            "hash": "7cb950cca54ac17adcd004aa46c1a1baf1320a958e33bc163a2a7ef596b34ec8"
+            "url": "https://github.com/mitoteam/mtconvy/releases/download/v2.1.0/mtconvy-2.1.0-win64.7z",
+            "hash": "6a357cd43aff65e85d3e81f772e79fd1f2ae150db7aea20cf5295c9b0095e0d4"
         }
     },
     "depends": "ffmpeg",
